@@ -4,9 +4,14 @@
 #include <iostream>
 
 // integer function for whole numbers
-int half(int arg)
+template<class T>
+int half(T arg)
 {
+	T result = arg / 2;
+	int intResult = (int)result;
 
+	if (result >= 0.5) intResult++;
+	return intResult;
 
 }
 
