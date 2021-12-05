@@ -2,7 +2,8 @@
 //
 
 #include <iostream>
-#include <math.h>
+
+using namespace std;
 
 // integer function for whole numbers
 template<class T>
@@ -28,6 +29,11 @@ T half(T arg)
 
 int main()
 {
+
+	cout << half(8.7) << endl;
+	cout << half(4.6f) << endl;
+	cout << half(6) << endl;
+
 
 }
 
