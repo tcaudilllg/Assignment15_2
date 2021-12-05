@@ -1,3 +1,7 @@
+// Author: Anthony Caudill
+// 21.FA.CIS.1202.501
+// 12/5/2021
+
 // Assignment15_2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
