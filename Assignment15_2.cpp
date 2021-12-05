@@ -2,15 +2,17 @@
 //
 
 #include <iostream>
+#include <math.h>
 
 // integer function for whole numbers
 template<class T>
-int half(T arg)
+int half(int arg)
 {
-	T result = arg / 2;
-	int intResult = (int)result;
 
-	if (result >= 0.5) intResult++;
+	T result = arg / 2;
+	int intResult = (int)result;  // convert to int (for rounding)
+
+	if ((result - intResult) >= 0.5) intResult++;  // round
 	return intResult;
 
 }
@@ -19,8 +21,7 @@ int half(T arg)
 template<class T>
 T half(T arg)
 {
-
-
+	return arg / 2;
 }
 
 
